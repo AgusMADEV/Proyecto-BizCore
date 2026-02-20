@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jocarsa Suite - Sistema de Gestión Empresarial Integrado</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <!-- Cabecera corporativa -->
+    <header>
+        <div class="logo">
+            <img src="https://jocarsa.github.io/logos/logos/jocarsa%20%7C%20AliceBlue.svg" alt="Jocarsa">
+            <div>
+                <h1>Jocarsa Suite</h1>
+                <p>Sistema de Gestión Empresarial Integrado</p>
+            </div>
+        </div>
+        <nav>
+            <button id="btn-dashboard" class="nav-btn active">
+                <span>📊</span> Dashboard
+            </button>
+        </nav>
+    </header>
+
+    <!-- Contenedor principal -->
+    <div class="container">
+        <!-- Sidebar con módulos -->
+        <aside class="sidebar">
+            <h2>Módulos</h2>
+            <div id="modules-list">
+                <div class="loading">Cargando módulos...</div>
+            </div>
+        </aside>
+
+        <!-- Área de contenido principal -->
+        <main class="main-content">
+            <!-- Dashboard -->
+            <section id="dashboard-section" class="content-section active">
+                <div class="section-header">
+                    <h2>Dashboard Integrado</h2>
+                    <p>Vista consolidada de todos los módulos del sistema</p>
+                </div>
+                
+                <div id="dashboard-cards" class="dashboard-grid">
+                    <div class="loading">Cargando datos del dashboard...</div>
+                </div>
+
+                <div class="section-header" style="margin-top: 2rem;">
+                    <h3>Efectos de la Integración</h3>
+                    <p>Este dashboard muestra cómo la integración de módulos independientes crea valor añadido</p>
+                </div>
+
+                <div class="integration-info">
+                    <div class="info-card">
+                        <h4>🔗 Datos Conectados</h4>
+                        <p>Los módulos comparten información en tiempo real. Un cliente en CRM puede vincularse a proyectos y formularios.</p>
+                    </div>
+                    <div class="info-card">
+                        <h4>📈 Análisis Cruzado</h4>
+                        <p>El módulo de Informes puede generar reportes que combinan datos de CRM, Proyectos y Formularios.</p>
+                    </div>
+                    <div class="info-card">
+                        <h4>⚡ Flujo Unificado</h4>
+                        <p>Gestiona todo desde una sola interfaz: desde captar un cliente hasta completar proyectos.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección dinámica para módulos -->
+            <section id="module-section" class="content-section">
+                <div id="module-content">
+                    <!-- El contenido del módulo se cargará aquí -->
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Jocarsa Suite - Ejemplo de Integración de Módulos</p>
+        <p>Proyecto Académico - Sistemas de Gestión Empresarial</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

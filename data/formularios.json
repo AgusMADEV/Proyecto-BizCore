@@ -1,0 +1,35 @@
+{
+  "formularios": [
+    {
+      "id": 1,
+      "titulo": "agus",
+      "descripcion": "ashis",
+      "campos": [
+        {
+          "name": "nombre",
+          "label": "Nombre",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "name": "comentario",
+          "label": "Comentario",
+          "type": "textarea",
+          "required": false
+        }
+      ],
+      "activo": true,
+      "cliente_id": null,
+      "proyecto_id": null,
+      "fecha_creacion": "2026-02-18T21:33:44.217979",
+      "respuestas_count": 0
+    }
+  ],
+  "respuestas": []
+}

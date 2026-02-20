@@ -1,0 +1,15 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nombre": "agus",
+      "email": "agusaguasa",
+      "telefono": "asdasdsa",
+      "empresa": "asdasdas",
+      "fecha_creacion": "2026-02-18T21:33:32.810835",
+      "estado": "activo"
+    }
+  ],
+  "contactos": [],
+  "oportunidades": []
+}

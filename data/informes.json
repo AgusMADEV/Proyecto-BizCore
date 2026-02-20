@@ -1,0 +1,19 @@
+{
+  "informes_generados": [
+    {
+      "id": 1,
+      "tipo": "integracion",
+      "fecha_generacion": "2026-02-18T20:00:00",
+      "contenido": {
+        "tipo": "Informe de Integración",
+        "clientes_totales": 3,
+        "clientes_con_proyectos": 2,
+        "proyectos_totales": 2,
+        "formularios_vinculados_crm": 1,
+        "formularios_vinculados_proyectos": 1,
+        "tasa_integracion_clientes": 66.67
+      },
+      "generado_por": "Sistema"
+    }
+  ]
+}

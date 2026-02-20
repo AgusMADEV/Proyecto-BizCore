@@ -1,0 +1,81 @@
+{
+  "proyectos": [
+    {
+      "id": 1,
+      "nombre": "Web Corporativa ABC",
+      "descripcion": "Desarrollo de sitio web corporativo con CMS para Empresa ABC",
+      "cliente_id": 1,
+      "estado": "en_proceso",
+      "fecha_inicio": "2026-02-17T00:00:00",
+      "fecha_fin": "2026-03-17T00:00:00",
+      "presupuesto": 5000,
+      "responsable": "Equipo Desarrollo"
+    },
+    {
+      "id": 2,
+      "nombre": "Sistema de Inventario InnovaTech",
+      "descripcion": "Sistema de gestión de inventario y almacén personalizado",
+      "cliente_id": 3,
+      "estado": "planificacion",
+      "fecha_inicio": "2026-02-20T00:00:00",
+      "fecha_fin": "2026-04-15T00:00:00",
+      "presupuesto": 3500,
+      "responsable": "Equipo Backend"
+    }
+  ],
+  "tareas": [
+    {
+      "id": 1,
+      "proyecto_id": 1,
+      "titulo": "Diseño de wireframes",
+      "descripcion": "Crear wireframes de todas las secciones del sitio web",
+      "estado": "completada",
+      "prioridad": "alta",
+      "asignado_a": "Diseñador UX",
+      "fecha_creacion": "2026-02-17T09:00:00",
+      "fecha_vencimiento": "2026-02-20T18:00:00",
+      "tiempo_estimado": 8,
+      "tiempo_real": 10,
+      "fecha_completada": "2026-02-20T17:30:00"
+    },
+    {
+      "id": 2,
+      "proyecto_id": 1,
+      "titulo": "Desarrollo del frontend",
+      "descripcion": "Implementar las vistas en HTML/CSS/JS según los diseños",
+      "estado": "en_proceso",
+      "prioridad": "alta",
+      "asignado_a": "Desarrollador Frontend",
+      "fecha_creacion": "2026-02-21T09:00:00",
+      "fecha_vencimiento": "2026-03-01T18:00:00",
+      "tiempo_estimado": 40,
+      "tiempo_real": 15
+    },
+    {
+      "id": 3,
+      "proyecto_id": 1,
+      "titulo": "Configurar base de datos",
+      "descripcion": "Diseñar e implementar el esquema de base de datos",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "asignado_a": "Desarrollador Backend",
+      "fecha_creacion": "2026-02-22T09:00:00",
+      "fecha_vencimiento": "2026-02-28T18:00:00",
+      "tiempo_estimado": 8,
+      "tiempo_real": 0
+    },
+    {
+      "id": 4,
+      "proyecto_id": 2,
+      "titulo": "Análisis de requisitos",
+      "descripcion": "Reunión con cliente para definir funcionalidades del sistema",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "asignado_a": "Analista",
+      "fecha_creacion": "2026-02-18T09:00:00",
+      "fecha_vencimiento": "2026-02-22T18:00:00",
+      "tiempo_estimado": 4,
+      "tiempo_real": 0
+    }
+  ]
+}
